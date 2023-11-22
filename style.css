@@ -1,0 +1,43 @@
+
+body{
+    background-color:#ff0000 ;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.blocks{
+    width: 770px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.block{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+    padding-left: 2px;
+}
+h2{
+    padding: 2px;
+    
+}
+h1{
+    padding-left: 20px;
+    
+}
+.styleword{
+    color:rgb(54, 40, 9);
+    font-family: 'Verdana';
+    font-size:smaller;
+}
+.foto{
+    border-radius: 20px;
+}
